@@ -26,7 +26,7 @@ int main()
 	//variables
 	
 	FILE* p_file, * p_fileT;
-	char another, choice;
+	char another, choice = '.'; //reaclly bad programming....
 
 	//student struct.... could do class but this is simple in this context and works
 	struct student
@@ -39,7 +39,7 @@ int main()
 	//delecrations 
 	struct student aStudent;
 	//place holders to search
-	char modfirst_name[50], modlast_name[50];
+	char modlast_name[50];
 	long int rec_size;
 
 	//fopen:  opens the file specified by filename and associates a stream with it
@@ -63,7 +63,7 @@ int main()
 	//sizeof:  compile-time operator that determines the size, in bytes, of a variable or data type
 	rec_size = sizeof(aStudent);
 
-	while (1)
+	while (choice != '5')
 	{
 		//uses the system console command "cls" to clear the console
 		system("cls");  
@@ -246,7 +246,8 @@ int main()
 				std::cout << std::endl;
 				std::cout << "\t\tbye bye" << std::endl;
 			 
-				exit(0);
+				
+			break;
 
 			default:
 				std::cout << "WRONG CHOICE" << std::endl;
