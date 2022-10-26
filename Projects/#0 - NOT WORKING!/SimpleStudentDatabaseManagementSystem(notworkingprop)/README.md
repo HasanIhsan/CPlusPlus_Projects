@@ -1,6 +1,7 @@
-# This is a simple student database management system developed in C++. implmented with txt file
-* It utilizes file handling and shows effective implementation of class and object of the programming language. (was mixed with c and c++ concepts that don't 
-work well together currenly... or rather are pretty old...)
-** or at least it trys to this is a mix of c and c++ concepts and they don't mix well i was just trying to mess around with stuff 
+# This is a simple student database management system. implmented with txt file
 
-* again this does not work properly so for the most part i'll try to fix it if i feel like it...
+*using c and c++ concepts mixed together....
+* It utilizes file handling and shows effective implementation of class and objects. 
+** or at least it trys to this is a mix of c and c++ concepts and they don't mix well(or rather i havent been able to get it working) 
+
+* again this does not work properly so if you are gonna look at the code just be aware
